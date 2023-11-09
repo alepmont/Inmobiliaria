@@ -1,0 +1,26 @@
+{
+    "inmuebles": [
+      {
+        "tipo": "Hotel",
+        "precio": "$18.000",
+        "lugar": "Godoy Cruz - Mendoza",
+        "habitaciones": 1,
+        "url": "./Imagenes/Hotel1.jpg"
+      },
+      {
+        "tipo": "Hotel",
+        "precio": "$13.000",
+        "lugar": "Capital - Mendoza",
+        "habitaciones": 1,
+        "url": "./Imagenes/Hotel2.jpg"
+      },
+      {
+        "tipo": "Hotel",
+        "precio": "$16.000",
+        "lugar": "Las Heras - Mendoza",
+        "habitaciones": 1,
+        "url": "./Imagenes/Hotel3.jpg"
+      }
+    ]
+  }
+  

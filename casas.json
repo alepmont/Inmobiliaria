@@ -1,0 +1,26 @@
+{
+    "inmuebles": [
+      {
+        "tipo": "Casa",
+        "precio": "$75.000",
+        "lugar": "Godoy Cruz - Mendoza",
+        "habitaciones": 1,
+        "url": "./Imagenes/Casa1.jpg"
+      },
+      {
+        "tipo": "Casa",
+        "precio": "$95.000",
+        "lugar": "Capital - Mendoza",
+        "habitaciones": 3,
+        "url": "./Imagenes/casa2.jpg"
+      },
+      {
+        "tipo": "Casa",
+        "precio": "$80.000",
+        "lugar": "Las Heras - Mendoza",
+        "habitaciones": 2,
+        "url": "./Imagenes/casa3.jpg"
+      }
+    ]
+  }
+  

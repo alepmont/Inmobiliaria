@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+:root {
+    --primary-color:#82bf38d5;
+    --secundary:#de6262;
+    --background: #c8ea9ed5;
+    --dark: #000000;
+    --ligth: #ffffff;
+
+}   
+
+html{
+    font-size: 62.5%;
+    font-family: 'Rubik', sans-serif;
+}   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+/*  Header   */
+.container-hero{
+    background-color: var(--background);
+    }   
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+.redes{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    font-size: 2rem;
+    .number{        
+        font-size: 2rem;
+        color: var(--dark);
+
+    }
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    
+}
+.logo i{
+    font-size: 2.8rem;
+    color: #000000;
+}
+.logo h1 a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: #000000;
+
+}
+.search i{
+    font-size: 2rem;
+    color: #000000;
+    
+}
+.search button{
+    cursor: pointer;
+}
+
+/*container navbar*/
+
+.container-navbar{
+    background: var(--primary-color);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.navbar .fa-bars{
+    display: none;
+}
+.menu{
+    display: flex;
+    gap: 2rem;
+}
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--dark);
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+.menu a::after {
+    content: '';
+    width: 1.5rem;
+    height: 1px;
+    background-color: var(--ligth);
+    position: absolute;
+    bottom: -3px;
+    left: 0%;
+    transform: translate(-50%, 50%);
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.menu a:hover::after{
+    opacity: 1;
+}
+.menu a:hover{
+    color: var(--ligth);    
+}
+
+/*BANNER*/
+.banner{
+    background-image: linear-gradient(100deg, #000000, #00000020), url('Imagenes/portada.jpg');
+    height: 60rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    max-width: 100%;
+
+
+}
+.contenedor-inmueble {
+        display: flex;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 4rem;
+    
+}
+
+.inmueble-imagen {
+    width: 350px;
+    height:350px;
+    border-radius: 1rem;
+    max-width: 100%;
+    
+}
+
+.inmueble-detalles {
+    background-color: var(--background);
+    color: var(--clr-white);
+    padding: .8rem;
+    border-radius: 1rem;
+    margin-top: -2rem;
+    position: relative;     
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.inmueble-titulo {
+    font-size: 2rem;
+    text-align: center;
+}
+/* Historia Inmobiliaria */
+
+.historia{
+    background-color: var(--primary-color);
+    color:var(--dark);
+    padding: 50px 20px;
+}
+.historia .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.historia h2{
+    font-size: 5rem;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.historia .contenido-seccion p{
+    font: 8px;
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-bottom: 20px;
+}
+.historia .contenido-seccion p span{
+    color: var(--ligth);
+    font-weight: bold;
+}
+/* SECCION CONTACTO */
+.contacto{
+    background-color: var(--background);
+    color: #000000;
+    padding: 50px 0;
+}
+.contacto .contenido-seccion{
+    max-width: 100%;
+    margin: auto;
+    
+}
+.contacto h2{
+    font-size: 48px;
+    text-align: center; 
+    padding: 20px 0;
+}
+.contacto .fila{
+    display: flex;
+}
+.contacto .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+.contacto .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #373737;
+    color: #fff;
+    font-size: 18px;
+}
+.contacto button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #000000;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #000000;
+    position: relative;
+    z-index: 10;
+}
+.contacto button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    
+}
+.contacto button:hover .overlay{
+    width: 100%;
+}
+.contacto .col img{
+    width: 100%;
+    position: relative; /* Añade posición relativa al elemento */
+    z-index: 0 ; /* Ajusta el valor de z-index según sea necesario */
+    max-width: 100%;
+}
+.contacto .col .info{
+    position: absolute;
+    top: 43%;
+    background-color: #1b1b1b7e;
+    padding: 9rem;
+    width: fit-content;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+}
+.contacto .col .info ul{
+    list-style: none;
+}
+.contacto .col .info ul li{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.contacto .col .info ul li i{
+    color: var(--background);
+    display: inline-block;
+    margin-right: 20px;
+}
+/* pagina casas*/
+
+.banner-secciones{
+    background-image: linear-gradient(100deg, #000000, #00000020), url('Imagenes/portada.jpg');
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    max-width: 100%;
+
+
+}
+.contenedor-inmueble.casas {    
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;   
+
+}
+
+.casa-imagen {
+width: 350px;
+height:350px;
+border-radius: 1rem;
+margin: 0 auto; /* Configura el margen izquierdo y derecho a "auto" para centrar horizontalmente */
+display: block;
+max-width: 100%;
+}
+
+.casa-detalles {
+background-color: var(--background);
+color: var(--clr-white);
+padding: .8rem;
+border-radius: 1rem;
+margin-top: -2rem;
+position: relative;     
+display: flex;
+flex-direction: column;
+gap: .25rem;    
+}
+
+.casa-titulo {
+font-size: 2rem;
+text-align: center;
+}

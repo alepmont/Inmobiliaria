@@ -1,0 +1,158 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>InmobiliariaKatana</title>
+        <link rel="stylesheet" href="principal.css">
+
+    </head>
+    <body>
+            <!-- ENCABEZADO -->
+        <header>
+            <div class="container-hero">
+                <div class="container hero">
+                    <div class="redes">
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <i class="fa-solid fa-phone"></i></a>
+                        <h1 class="number">0303-456</h1>
+                                        
+                    </div>  
+                    
+                    <div class="logo">
+                        <a href="index principal.html"><i class="fa-solid fa-house"></i></a>
+                        <h1 class="logo ">KATANA</h1>
+                        
+                    </div>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="search-input" placeholder="Ingrese su búsqueda">
+                        <button id="search-button">Buscar</button>
+                    </div>
+                    <div id="results" class="results">
+                        <!-- Los resultados se mostrarán aquí -->
+                    </div>
+                                   
+                    
+                </div>
+            </div>
+            <!-- SECCIONES -->
+
+            <div class="container-navbar">
+                <nav class="navbar container">
+                    <i class="fa-solid fa-bars"></i>
+                    <ul class="menu">
+                        <li><a href="index principal.html">Inicio</a></li>
+                        <li><a href="index casas.html">Casas</a></li>
+                        <li><a href="index departamentos.html">Departamentos</a></li>
+                        <li><a href="index hotel.html">Hoteles</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            
+        </header>
+            <!-- BLOQUE DE SECCIONES -->
+
+        <section class="banner">
+            <div id="contenedor-inmueble"class="contenedor-inmueble">
+                <div class="casas"> 
+                    <a href="index casas.html"><img class="inmueble-imagen" src="./Imagenes/casa.jpg" alt=""></a>
+                    <div class="inmueble-detalles">
+                        <a href="index casas.html"><h3 class="inmueble-titulo">Casas</h3></a>
+                    
+                        
+                    
+                    </div>
+                </div>
+            </div>
+            <div id="contenedor-seccion"class="contenedor-seccion">
+                <div class="departamentos">
+                    <a href="index departamentos.html"><img class="inmueble-imagen" src="./Imagenes/Departamento.jpg" alt=""></a>
+                    <div class="inmueble-detalles">
+                        <a href="index departamentos.html"><h3 class="inmueble-titulo">Departamentos</h3></a>
+                        
+                    
+                    </div>
+                </div>
+            </div>
+            <div id="contenedor-seccion"class="contenedor-seccion">
+                <div class="hoteles">
+                    <a href="index hotel.html"><img class="inmueble-imagen" src="./Imagenes/Hotel.jpg" alt=""></a>
+                    <div class="inmueble-detalles">
+                        <a href="index hotel.html"><h3 class="inmueble-titulo">Hoteles</h3></a>
+                        
+                    
+                    </div>
+                </div>
+            </div>    
+            
+        </section>
+        <!-- Historia Inmobiliaria -->
+        <section id="historia" class="historia">
+            <div class="contenido-seccion">
+                <h2>Katana</h2>
+                <p><span>Somos Katana</span> una inmbiliaria de gran trayectoria en la provincia de Mendoza que desde el año 2000 se ocupa de ofrecerte los mejores inmbuebles de la provincia, para ofrecerte tu próximo hogar. Nos respaldan 23 años en el mercado y cientos de clientes que satisfechos encontraron su hogar.</p>
+
+            </div>
+        </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form id="formulario-contacto" action="#" method="post">
+                        <input type="text" id="nombre" name="nombre" placeholder="Tú Nombre">
+                        <input type="tel" id="telefono" name="telefono" placeholder="Número telefónico">
+                        <input type="email" id="correo" name="correo" placeholder="Dirección de correo">
+                        <input type="text" id="tema" name="tema" placeholder="Tema">
+                        <textarea id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit" id="enviar">
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+
+        <!-- Mapa -->
+        <div class="col">
+            <img src="Imagenes/map.png" alt="">
+            <div class="info">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Mendoza, Argentina
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        0303-456
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        katana@inmobiliaria.com
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="redes">
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        <i class="fa-solid fa-phone"></i></a>
+        <h1 class="number">0303-456</h1>
+                        
+    </div>
+    </section>
+        <!-- Resdes final -->
+
+        <script src="ajax.js"></script>
+        <script src="formulario.js"></script>
+
+    </body>
+    </html>

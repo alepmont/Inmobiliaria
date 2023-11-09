@@ -1,0 +1,25 @@
+{
+  "propiedades": [
+    {
+      "tipo": "departamento",
+      "precio": "18.000",
+      "lugar": "Godoy Cruz - Mendoza",
+      "habitaciones": 1,
+      "url": "index_departamento_1.html"
+    },
+    {
+      "tipo": "departamento",
+      "precio": "98.000",
+      "lugar": "Capital - Mendoza",
+      "habitaciones": 3,
+      "url": "index_departamento_2.html"
+    },
+    {
+      "tipo": "departamento",
+      "precio": "83.000",
+      "lugar": "Las Heras - Mendoza",
+      "habitaciones": 2,
+      "url": "index_departamento_3.html"
+    }
+  ]
+}
