@@ -1,0 +1,20 @@
+[
+  {
+      "id": "contenedor-inmuebles-departamento1",
+      "precio": 78000,
+      "descripcion": "Departamento ubicada en calle Lavalle, cuenta con 1 habitación, baño completo, cocina-comedor y no dispone de cochera",
+      "imagen": "./Imagenes/depto1.jpg"
+  },
+  {
+      "id": "contenedor-inmuebles-departamento2",
+      "precio": 98000,
+      "descripcion": "Departamento ubicada en calle Necochea, cuenta con 3 habitaciones, 2 baños completos, cocina-comedor y cochera",
+      "imagen": "./Imagenes/depto2.jpg"
+  },
+  {
+      "id": "contenedor-inmuebles-departamento3",
+      "precio": 83000,
+      "descripcion": "Departamento ubicada en calle Peru, cuenta con 2 habitaciones, 1 baño completo, cocina-comedor y cochera",
+      "imagen": "./Imagenes/depto3.jpg"
+  }
+]
